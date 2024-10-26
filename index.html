@@ -554,21 +554,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-checkbox">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="policy" class="modal-check-text"
-              ><span>
+            <label for="user-privacy" class="modal-check-text"
+              ><span class="user-privacy-span">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg> </span
               >I accept the terms and conditions of the
-              <span class="policy-text-span">Privacy Policy</span></label
+              <a href="" target="_blank" class="privacy-link">
+                Privacy Policy</a
+              ></label
             >
           </div>
           <button type="submit" class="button-send">Send</button>

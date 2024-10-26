@@ -449,8 +449,6 @@ font-family: "Roboto",
     margin-left: auto;
 }
 
-
-
 .footer-input-email {
     width: 264px;
     height: 40px;
@@ -599,12 +597,12 @@ font-family: "Roboto", sans-serif;
 
 .modal-input:hover, .modal-input:focus {
 border-color: #4D5AE5;
+fill: #4D5AE5;
 }
 
-.modal-input:hover + .modal-field-icon {
-fill: #4d5ae5;
+.modal-field-icon:hover, .modal-field-icon:focus {
+    fill: #4D5AE5;
 }
-
 
 .modal-label {
     font-family: "Roboto", sans-serif;

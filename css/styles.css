@@ -600,9 +600,6 @@ border-color: #4D5AE5;
 fill: #4D5AE5;
 }
 
-.modal-field-icon:hover, .modal-field-icon:focus {
-    fill: #4D5AE5;
-}
 
 .modal-label {
     font-family: "Roboto", sans-serif;
@@ -632,9 +629,9 @@ fill: #4D5AE5;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     
 }
-
-.modal-field-icon:focus, .modal-field-icon:hover {
-fill: #4D5AE5;
+.modal-field-icon:focus,
+.modal-field-icon:hover {
+    fill: #4D5AE5;
 }
 .input-wrapper {
     position: relative;

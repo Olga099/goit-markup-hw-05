@@ -450,15 +450,6 @@ font-family: "Roboto",
 }
 
 
-.footer-input-email::placeholder {
-    font-size: 12px;
-        line-height: 2;
-        letter-spacing: 0.04em;
-        color: #fff;
-        padding-left: 16px;
-        margin-top: 8px;
-        margin-bottom: 8px;
-}
 
 .footer-input-email {
     width: 264px;
@@ -477,7 +468,6 @@ font-family: "Roboto",
 .footer-input-email::placeholder {
     color #ffffff;
 }
-
 
 .footer-subscribe-button {
     border-radius: 4px;

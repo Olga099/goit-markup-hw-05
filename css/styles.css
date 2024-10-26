@@ -626,7 +626,7 @@ fill: #4d5ae5;
 }
 
 .modal-field-icon {
-    fill: #2e2f42;
+    fill: #2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -635,7 +635,7 @@ fill: #4d5ae5;
     
 }
 
-.modal-field-icon:focus {
+.modal-field-icon:focus, .modal-field-icon:hover {
 fill: #4D5AE5;
 }
 .input-wrapper {

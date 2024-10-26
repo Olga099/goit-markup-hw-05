@@ -669,9 +669,7 @@ fill: #4D5AE5;
 .modal-field-checkbox {
     margin-bottom: 24px;
 }
-.modal-textarea {
-    border-color: #4D5AE5;
-}
+
 .button-send {
     color: #fff;
         background-color: #4d5ae5;
@@ -720,8 +718,8 @@ fill: #f4f4fd;
 }
 
 .user-privacy-span {
-    width: 16px;
     height: 16px;
+    width: 16px;
     border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         margin-right: 8px;

@@ -624,7 +624,11 @@ fill: #4d5ae5;
 }
 
 .modal-field {
-    margin-bottom: 16px
+    margin-bottom: 8px
+}
+
+.modal-field-comment {
+    margin-bottom: 16px;
 }
 
 .modal-field-icon {
@@ -656,12 +660,15 @@ fill: #4D5AE5;
         padding: 8px 16px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-textarea::placeholder {
         font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
+        font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.04em;
+                color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-textarea {
+    border-color: #4D5AE5;
 }
 .button-send {
     color: #fff;
